@@ -28,7 +28,7 @@ public class HostingController<Content: View> {
         self.debugViews = debugViews
     }
     
-    private func calculateTreeSizes() {
+    public func calculateTreeSizes() {
         let width = canvas.canvasWidth
         let height = canvas.canvasHeight
         let displaySize = Size(width: width, height: height)
